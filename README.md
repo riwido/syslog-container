@@ -2,12 +2,11 @@ __Setup:__
 ```
 cp blank_envvars.txt envvars.txt
 ```
-
 modify envvars.txt
 
 ```
 docker build . --tag logger
-
+```
 __Run:__
 ```
 docker run --rm -d --name logger \
