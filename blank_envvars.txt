@@ -1,0 +1,21 @@
+# Empty contents.  Creation date is modified to signify script health
+HEALTH_FILE=/tmp/healthfile.txt
+
+# How often a report is sent to splunk
+# 1 cycle is ~1 second.
+REPORT_CYCLES=60
+
+# Maximum concurrent threads
+MAX_WORKERS=10
+
+# Limit before devices are rejected
+QUEUE_LIMIT=50
+
+# Control which user
+PUID=
+PGID=
+
+#Timezone
+TZ=
+
+#DOCKER_MODS=lscr.io/linuxserver/mods:universal-tshoot
