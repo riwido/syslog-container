@@ -1,0 +1,6 @@
+*
+!root/*
+!syslog-ng.conf
+!puller.py
+!healthcheck.sh
+!run
